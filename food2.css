@@ -1,0 +1,14 @@
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.mac {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aa {
+  display: flex;
+  flex-direction: row;
+}

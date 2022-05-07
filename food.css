@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.food {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aa {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 10px;
+}

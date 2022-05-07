@@ -1,0 +1,23 @@
+.data {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.team {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.word {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.guide {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}

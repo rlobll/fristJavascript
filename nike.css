@@ -1,0 +1,32 @@
+.nike {
+  display: flex;
+  background-color: rgb(84, 179, 100);
+  padding: 20px;
+  width: 300px;
+  color: rgb(221, 218, 218);
+  gap: 20px;
+}
+
+.aa:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.ss:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.dd:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.ff:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+}

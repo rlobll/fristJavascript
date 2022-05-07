@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css" />
+  </head>
+  <body>
+    <script>
+      const name = [
+        { type: "Fiat", model: "500", color: "white" },
+        { type: "Fiat", model: "500", color: "white" },
+        { type: "Fiat", model: "500", color: "white" },
+        { type: "Fiat", model: "500", color: "white" },
+        { type: "Fiat", model: "500", color: "white" },
+        { type: "Fiat", model: "500", color: "white" },
+        { type: "Fiat", model: "500", color: "white" },
+
+        "짬뽕",
+        "백반",
+        "고기",
+        "만두",
+        "치킨",
+        "피자",
+        "쌀국수",
+        "떡볶이",
+      ];
+      name[0].color;
+      if (age >= 19) {
+        console.log("성공");
+      }
+
+      document.getElementById("jang").innerHTML = name;
+      document.getElementById("jang").innerHTML = name;
+    </script>
+    <div class="header">
+      <h1>오늘 뭐 먹을까?</h1>
+    </div>
+
+    <div class="food">
+      <div class="aa">
+        <h2>전체메뉴</h2>
+        <div style="display: flex">
+          <input type="checkbox" />
+          <div>라면</div>
+        </div>
+        <div id="jang"></div>
+      </div>
+
+      <div class="ss">
+        <h2>전체랜덤</h2>
+        <button>선택</button>
+      </div>
+
+      <div class="dd">
+        <h2>선택랜덤</h2>
+        <button>선택</button>
+      </div>
+    </div>
+  </body>
+</html>
