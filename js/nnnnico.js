@@ -7,5 +7,3 @@ const bgImage = document.createElement("img");
 bgImage.src = `/img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
-
-//얘는 못하겠당~
